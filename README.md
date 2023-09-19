@@ -25,25 +25,12 @@ Adding this add-ons repository to your Home Assistant instance is pretty easy. I
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/afedchin/hassio-addons
+https://github.com/afedchin/hassio-addons-edge
 ```
 
 [![Opens your Home Assistant instance and show the add add-on repository dialog with the repository URL pre-filled](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)][my-ha-add-repo]
 
 ## Add-ons provided by this repository
-
-### &#10003; [TVHeadend][addon-tvheadend]
-
-![Latest Version][tvheadend-version-shield]
-![Supports armhf Architecture][tvheadend-armhf-shield]
-![Supports armv7 Architecture][tvheadend-armv7-shield]
-![Supports aarch64 Architecture][tvheadend-aarch64-shield]
-![Supports amd64 Architecture][tvheadend-amd64-shield]
-![Supports i386 Architecture][tvheadend-i386-shield]
-
-TV streaming server and recorder.
-
-[:books: TVHeadend add-on documentation][addon-doc-tvheadend]
 
 ## Releases
 
@@ -66,7 +53,6 @@ You have several options to get them answered:
  separate GitHub repository for each add-on. Please ensure you are creating
  the issue on the correct GitHub repository matching the add-on.
 
-- [Open an issue for the add-on: TVHeadend][tvheadend-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -104,20 +90,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-tvheadend]: https://github.com/afedchin/addon-tvheadend/tree/v2.4.6
-[addon-doc-tvheadend]: https://github.com/afedchin/addon-tvheadend/blob/v2.4.6/README.md
-[tvheadend-issue]: https://github.com/afedchin/addon-tvheadend/issues
-[tvheadend-version-shield]: https://img.shields.io/badge/version-v2.4.6-blue.svg
-[tvheadend-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[tvheadend-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[tvheadend-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[tvheadend-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[tvheadend-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[forum]: https://community.home-assistant.io?u=GauthamVarmaK
+[forum]: https://community.home-assistant.io
 [frenck]: https://github.com/frenck
 [afedchin]: https://github.com/afedchin
-[issue]: https://github.com/afedchin/hassio-addons/issues
-[license-shield]: https://img.shields.io/github/license/afedchin/hassio-addons.svg
+[issue]: https://github.com/afedchin/hassio-addons-edge/issues
+[license-shield]: https://img.shields.io/github/license/afedchin/hassio-addons-edge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [my-ha-add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fafedchin%2Fhassio-addons
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
