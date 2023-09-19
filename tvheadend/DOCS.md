@@ -17,7 +17,7 @@ Have included the following along with TVHeadend:
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Add this repository to have addons by GauthamVarmaK:
+1. Add this repository to have addons by afedchin:
    [![Home Assistant with repository URL pre-filled][my-ha-shield]][my-ha-repo]
 1. Search for the "TVHeadend" add-on in the Supervisor add-on store and install it.
 1. Start the "TVHeadend" add-on.
@@ -86,7 +86,9 @@ You have several options to get them answered:
 
 ## Authors & contributors
 
-This repository is owned and maintained by [GauthamVarmaK][gautham].
+TVHeadend add-on by [GauthamVarmaK][gautham].
+
+This repository is owned and maintained by [Anton Fedchin][afedchin].
 
 This has been possible thanks to the community add-ons initiative by [Frenck][frenck]
 
@@ -118,8 +120,9 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io/
 [frenck]: https://github.com/frenck
 [gautham]: https://github.com/GauthamVarmaK
+[afedchin]: https://github.com/afedchin
 [my-ha-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[issue]: https://github.com/GauthamVarmaK/addon-tvheadend/issues
+[issue]: https://github.com/afedchin/addon-tvheadend/issues
 [semver]: http://semver.org/spec/v2.0.0.htm
-[my-ha-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FGauthamVarmaK%2Fhassio-addons
-[releases]: https://github.com/GauthamVarmaK/addon-tvheadend/releases
+[my-ha-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fafedchin%2Fhassio-addons
+[releases]: https://github.com/afedchin/addon-tvheadend/releases

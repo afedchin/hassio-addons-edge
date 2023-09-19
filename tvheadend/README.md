@@ -4,7 +4,7 @@
 
 [![Community Forum][forum-shield]][forum]
 
-TVHeadend add-on by GauthamVarmaK.
+TVHeadend add-on by [GauthamVarmaK][gautham]..
 
 ## About
 
@@ -16,13 +16,14 @@ TVHeadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT>IP streami
 Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).
 
 Have included the following along with TVHeadend:
--Webgrab+
--Streamlink
--OSCam
+ -Webgrab+
+ -Streamlink
+ -OSCam (added by afedchin)
 
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/u/gauthamvarmak
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-9814747-blue.svg
-[release]: https://github.com/afedchin/addon-tvheadend/tree/9814747
+[release-shield]: https://img.shields.io/badge/version-0ae21a8-blue.svg
+[release]: https://github.com/afedchin/addon-tvheadend/tree/0ae21a8
+[gautham]: https://github.com/GauthamVarmaK

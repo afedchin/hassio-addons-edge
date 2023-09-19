@@ -104,10 +104,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-tvheadend]: https://github.com/afedchin/addon-tvheadend/tree/9814747
-[addon-doc-tvheadend]: https://github.com/afedchin/addon-tvheadend/blob/9814747/README.md
+[addon-tvheadend]: https://github.com/afedchin/addon-tvheadend/tree/0ae21a8
+[addon-doc-tvheadend]: https://github.com/afedchin/addon-tvheadend/blob/0ae21a8/README.md
 [tvheadend-issue]: https://github.com/afedchin/addon-tvheadend/issues
-[tvheadend-version-shield]: https://img.shields.io/badge/version-9814747-blue.svg
+[tvheadend-version-shield]: https://img.shields.io/badge/version-0ae21a8-blue.svg
 [tvheadend-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tvheadend-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tvheadend-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
