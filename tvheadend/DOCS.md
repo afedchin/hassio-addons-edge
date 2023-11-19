@@ -55,12 +55,12 @@ every single time this add-on starts.
 
 ## Additional Details
 
-- Config files are stored in `/config/tvheadend/`
-- Recording files are stored in `/config/tvheadend/recordings/`
+- Config files are stored in `/homeassistant/tvheadend/`
+- Recording files are stored in `/media/video/recordings/`
 - `/dev/dvb/`, `/dev/dri/` would be respectively mapped to
   `/dev/dvb/`, `/dev/dri/` inside the addon.
 
-Consider, backing `/config/tvheadend/` up whenever migrating.
+Consider, backing `/homeassistant/tvheadend/` up whenever migrating.
 
 ## Changelog & Releases
 
