@@ -1,5 +1,5 @@
 name: TVHeadend
-version: 4abf149
+version: 2d19753
 stage: experimental
 slug: tvheadend
 description: TV streaming server and recorder.
@@ -19,20 +19,27 @@ ports:
   9981/tcp: 9981
   9982/tcp: 9982
   8888/tcp: 8888
+  5004/tcp: 5004
 ports_description:
   9981/tcp: TVH Web Interface
   9982/tcp: TVH HTSP
   8888/tcp: OSCam Web Interface
+  5004/tcp: tvhProxy
 map:
 - homeassistant_config:rw
 - media:rw
 options:
-  system_packages: []
-  init_commands: []
+  TVH_BINDADDR: 0.0.0.0
+  TVH_PROXY_HOST: '[HOST]'
+  TVH_PROXY_PORT: 5004
+  TVH_TUNER_COUNT: 2
 schema:
-  system_packages:
-  - str
-  init_commands:
-  - str
+  TVH_BINDADDR: str
+  TVH_PROXY_HOST: str
+  TVH_PROXY_PORT: int
+  TVH_TUNER_COUNT: int
+  TVH_WEIGHT: int?
+  TVH_CHUNK_SIZE: int?
+  TVH_PROFILE: str?
 host_network: true
 image: ghcr.io/afedchin/tvheadend/{arch}
