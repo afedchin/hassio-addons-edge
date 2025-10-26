@@ -1,4 +1,5 @@
 # Changelog since v2.4.6
+- fixed tvhProxy configs 
 - added tvhProxy 
 - Adjust to latest Supervisor changes
 

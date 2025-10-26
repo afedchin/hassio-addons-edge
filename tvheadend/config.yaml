@@ -1,5 +1,5 @@
 name: TVHeadend
-version: 2d19753
+version: 1e059e8
 stage: experimental
 slug: tvheadend
 description: TV streaming server and recorder.
@@ -29,11 +29,16 @@ map:
 - homeassistant_config:rw
 - media:rw
 options:
+  TVH_URL: http://192.168.100.93:9981
   TVH_BINDADDR: 0.0.0.0
   TVH_PROXY_HOST: '[HOST]'
   TVH_PROXY_PORT: 5004
   TVH_TUNER_COUNT: 2
+  TVH_WEIGHT: 300
+  TVH_CHUNK_SIZE: 1048576
+  TVH_PROFILE: pass
 schema:
+  TVH_URL: str
   TVH_BINDADDR: str
   TVH_PROXY_HOST: str
   TVH_PROXY_PORT: int
